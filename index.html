@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js" integrity="sha256-hSzapznWRy/aOZkctlN03an9DxCLlN8ZCQS0lxntiHg=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+
+</head>
+<body class="container center">
+
+	<h1>Car info</h1>
+
+	<h2 class="cBurl">Colors</h2>
+	<div class="colors burlywood" >
+		
+	</div>
+
+	<h2 class=" cBeige">Brands</h2>
+	<div class="brands beige">
+
+	</div>
+
+	<h2 class="cBrown">Cars</h2>
+	<div class="justify brown">
+		<table class="th">
+				<th>Make</th>
+				<th>Model</th>
+				<th>Color</th>
+				<th>Price (R)</th>
+				<th>Registration</th>
+		</table>
+
+		<span class="cars">
+
+		</span>
+	</div>
+	<div class="makes"> 
+		<select name="make-selction">
+			<option value="makes" class="select">Select All Brands</option>
+		</select>
+	</div>
+
+	<div class="colors">
+		<select name="color-selction">
+			<option value="colorr" class="select">Select All Colors</option>
+		</select>
+	</div>
+
+	<div>
+		<input type="submit" value="Show Car List" class="filter" name="filter">
+	</div>
+
+	<!-- <div>
+		<table>
+			<tr>
+				<th>Color</th>
+				<th>Make</th>
+				<th>Model</th>
+				<th>Registration</th>
+				<th>Price</th>
+			</tr>
+			<tr class="widgets">
+			
+			</tr>
+			</table>
+	</div> -->
+	
+	<script src="index.js"></script>
+
+</body>
+
+
+</html>

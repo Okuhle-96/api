@@ -1,0 +1,106 @@
+h1 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 60px;
+    border-left: 200px solid black;
+    border-right: 200px solid black;
+}
+
+.burlywood {
+    padding: 40px;
+    background-color: burlywood;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.cBurl {
+    color: burlywood;
+    font-weight: bolder;
+    text-decoration: overline;
+}
+
+.table {
+ border: 2px solid white;
+}
+
+table, th {
+    border: 1px solid white;
+  }
+
+.beige{
+    padding: 40px;
+    background-color: #CD7F32;
+    font-size: 20px;
+    color: white;
+    display: block;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.cBeige {
+    color: #CD7F32;
+    font-weight: bolder;
+    text-decoration: overline;
+    margin-top: 70px;
+}
+
+
+.brown{
+    padding: 40px;
+    background-color: #51361a;
+    color: white;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.cBrown {
+    color: #51361a;
+    font-weight: bolder;
+    text-decoration: overline;
+    margin-top: 70px;
+}
+
+.th th{
+    padding: 20px;
+    width: 200px;
+}
+
+.th td {
+    padding-left: 20px;
+}
+
+
+select {
+    margin-top: 20px;
+    background-color: #CD7F32;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 10px;
+    width: 300px;
+    border: 3px solid #CD7F32;
+}
+
+.filter {
+    background-color: transparent;
+    border: 5px solid #51361a;
+    color: #51361a;
+    font-weight: bolder;
+    font-size: medium;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 250px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.filter:hover{
+    background-color: #51361a;
+    color: white;
+}
+
+select .style {
+    background-color: #CD7F32;
+    font-weight: bolder;
+}

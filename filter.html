@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js" integrity="sha256-hSzapznWRy/aOZkctlN03an9DxCLlN8ZCQS0lxntiHg=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+
+</head>
+<body class="center container">
+    <h1>Car Filter</h1>
+
+    <div class="makeValues"> 
+		<select name="make-selction" class="make-selction">
+			<!-- <option value="makes" class="selects">Select All Brands</option> -->
+		</select>
+
+</div>
+	<div class="colorValues">
+		<select name="color-selction" class="color-selection">
+			<!-- <option value="colorr" class="select">Select All Colors</option> -->
+		</select>
+	</div>
+
+	<div>
+		<input type="submit" value="Show Car List" class="filter" name="filter">
+	</div>
+
+	<div class="brown">
+		<table>
+			<table class="th">
+				<th>Make</th>
+				<th>Model</th>
+				<th>Color</th>
+				<th>Price (R)</th>
+				<th>Registration</th>
+		</table>
+			<span class="widgetsResults">
+			
+			</span>
+			</table>
+	</div>
+	<!-- <script src="./index.js"></script> -->
+</body>
+</html>
